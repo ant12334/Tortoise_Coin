@@ -20,7 +20,7 @@ namespace CryptoNote
 {
     namespace parameters
     {
-        const uint64_t DIFFICULTY_TARGET = 10; // seconds
+        const uint64_t DIFFICULTY_TARGET = 120; // seconds
 
         const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER = 500000000;
 
@@ -288,7 +288,7 @@ namespace CryptoNote
         const char MINER_CONFIG_FILE_NAME[] = "miner_conf.json";
     } // namespace parameters
 
-    const char CRYPTONOTE_NAME[] = "MMPLcoin";
+    const char CRYPTONOTE_NAME[] = "TortoiseCoin";
 
     const uint8_t TRANSACTION_VERSION_1 = 1;
 
@@ -323,9 +323,9 @@ namespace CryptoNote
     const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT = 100; // by default, blocks count in blocks downloading
     const size_t COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT = 1000;
 
-    const int P2P_DEFAULT_PORT = 10101;
+    const int P2P_DEFAULT_PORT = 19833;
 
-    const int RPC_DEFAULT_PORT = 10102;
+    const int RPC_DEFAULT_PORT = 13453;
 
     const int SERVICE_DEFAULT_PORT = 8070;
 
@@ -376,11 +376,9 @@ namespace CryptoNote
     const std::string LICENSE_URL = "https://github.com/turtlecoin/turtlecoin/blob/master/LICENSE";
 
     const static boost::uuids::uuid CRYPTONOTE_NETWORK = {
-        {0xb5, 0x4a, 0x0c, 0x6c, 0xcf, 0x52, 0x57, 0x41, 0x65, 0xf9, 0x91, 0xa4, 0xb6, 0xc1, 0x43, 0xe9}};
+        {0x6c, 0x4a, 0x52, 0xb5, 0xcf, 0x0c, 0x57, 0x41, 0x65, 0xf9, 0x91, 0xa4, 0xb6, 0xc1, 0x43, 0xe9}};
 
     const char *const SEED_NODES[] = {
-        "149.28.226.151:10101",//node3
-        "155.138.159.234:10101", //node4
 
     };
 } // namespace CryptoNote

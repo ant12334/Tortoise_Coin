@@ -13,7 +13,7 @@ namespace WalletConfig
     const std::string_view addressPrefix = "god";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "MMPLcoin";
+    const std::string ticker = "TortoiseCoin";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";
@@ -23,7 +23,7 @@ namespace WalletConfig
     const std::string addressBookFilename = ".addressBook.json";
 
     /* The name of your deamon */
-    const std::string daemonName = "MMPLcoind";
+    const std::string daemonName = "TortoiseCoind";
 
     /* The name to call this wallet */
     const std::string walletName = "zedwallet";
