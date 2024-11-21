@@ -7,6 +7,8 @@
 
 #include <cassert>
 #include <string>
+#include <cstdint>
+
 
 namespace Common
 {
